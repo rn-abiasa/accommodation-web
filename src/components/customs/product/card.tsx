@@ -22,7 +22,7 @@ const Product = ({
 }: Props) => {
   return (
     <>
-      <Card className="p-0 rounded-3xl">
+      <Card className="p-0 rounded-3xl sm:w-70">
         <CardContent className="p-0">
           <img src={image} alt={name} className="rounded-3xl" />
           <div className="p-5">

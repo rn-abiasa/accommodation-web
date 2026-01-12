@@ -10,12 +10,12 @@ import Footer from "@/layouts/footer";
 const IndexPage = () => {
   return (
     <>
-      <main className="h-screen p-1">
+      <main className="h-screen p-2">
         <div className="bg-[url('/background.png')] bg-cover bg-center h-full rounded-3xl">
           <div className="bg-linear-to-r from-black/20 to-transparent h-full rounded-3xl">
             <Navbar />
-            <div className="px-5">
-              <div className="mt-20">
+            <div className="px-5 sm:px-16">
+              <div className="mt-20 sm:ml-16">
                 <p className="text-base font-medium text-white">
                   Book now and get a discount
                 </p>
@@ -38,7 +38,7 @@ const IndexPage = () => {
           </div>
         </div>
       </main>
-      <section className="px-6 mt-10">
+      <section className="px-6 mt-10 sm:px-16">
         <div>
           <div>
             <p className="text-sm font-normal text-black">RECOMMENDED</p>
@@ -74,19 +74,17 @@ const IndexPage = () => {
           </div>
         </div>
       </section>
-      <section className="px-6 mt-16">
+      <section className="px-6 mt-16 sm:px-16">
         <div>
           <h2 className="text-2xl font-semibold text-center">
-            Discover The World
-            <br />
-            From Above
+            Discover The World From Above
           </h2>
           <p className="text-sm font-normal text-black/70 text-center mt-2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
             dolor sit amet consectetur adipisicing elit.
           </p>
         </div>
-        <div className="flex flex-col items-center gap-16 mt-10">
+        <div className="flex flex-col items-center gap-16 mt-10 sm:grid sm:grid-cols-2">
           <Service
             icon={<Map size={20} />}
             title="Tour Guide"
@@ -104,7 +102,7 @@ const IndexPage = () => {
           />
         </div>
       </section>
-      <section className="px-6 mt-16">
+      <section className="px-6 mt-16 sm:px-16">
         <div>
           <div>
             <p className="text-sm font-normal text-black">RECOMMENDED</p>
@@ -117,7 +115,7 @@ const IndexPage = () => {
             dolor sit amet consectetur adipisicing elit.
           </p>
         </div>
-        <div className="grid grid-cols-1 gap-5 mt-10">
+        <div className="grid grid-cols-1 gap-5 mt-10 sm:grid-cols-2">
           <ProductCard
             name="Lorem ipsum"
             description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
@@ -144,19 +142,17 @@ const IndexPage = () => {
           />
         </div>
       </section>
-      <section className="px-6 mt-16 mb-16">
+      <section className="px-6 mt-16 mb-16 sm:px-16">
         <div>
           <h2 className="text-2xl font-semibold text-center">
-            Discover The World
-            <br />
-            From Above
+            Discover The World From Above
           </h2>
           <p className="text-sm font-normal text-black/70 text-center mt-2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
             dolor sit amet consectetur adipisicing elit.
           </p>
         </div>
-        <div className="flex flex-col items-center gap-16 mt-10">
+        <div className="flex flex-col items-center gap-16 mt-10 sm:grid sm:grid-cols-2">
           <Testimonial
             name="Lorem ipsum"
             prophecy="Discover"
