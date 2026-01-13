@@ -4,7 +4,6 @@ import Navbar from "@/components/customs/navbar";
 import DestinationCard from "@/components/customs/destination/card";
 import Service from "@/components/customs/service";
 import ProductCard from "@/components/customs/product/card";
-import Testimonial from "@/components/customs/testimonial/card";
 import Footer from "@/layouts/footer";
 
 const IndexPage = () => {
