@@ -41,8 +41,8 @@ const Footer = () => {
   return (
     <>
       <footer className="bg-black px-6 py-10 sm:px-16">
-        <div>
-          <div className="grid grid-cols-2 gap-5 gap-y-10 sm:grid-cols-3">
+        <div className="md:flex md:justify-between">
+          <div className="grid grid-cols-2 gap-5 gap-y-10 sm:grid-cols-3 md:gap-24">
             <FooterItems title="About" items={aboutLinks} />
             <FooterItems title="About" items={aboutLinks} />
             <FooterItems title="About" items={aboutLinks} />
